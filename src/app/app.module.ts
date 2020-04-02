@@ -20,8 +20,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HomeComponent,
     // UserComponent,
     // UserlistComponent,
-    ActivateUserComponent,
-    DeletedUserComponent,
+    //ActivateUserComponent,
+    //DeletedUserComponent,
      //ManageUserComponent,
     // UserDetailsComponent
   ],
