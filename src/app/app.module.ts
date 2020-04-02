@@ -13,6 +13,8 @@ import { UserDetailsComponent } from './manage/user-details/user-details.compone
 import { ManageModule } from './manage/manage.module';
 import { SharedModule } from './shared/shared.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ActivateModule } from './activate/activate.module';
+import { DeletedModule } from './deleted/deleted.module';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     SharedModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ActivateModule,
+    DeletedModule,
+    ManageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
